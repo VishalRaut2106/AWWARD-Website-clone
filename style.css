@@ -76,9 +76,10 @@ body{
     font-size: 5vw;
     text-transform: uppercase;
     font-weight: 900;
-    opacity: 0;
+    animation-name: anime;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    opacity: 0;
 }
 
 @keyframes anime {
@@ -325,12 +326,12 @@ body{
   color: transparent;
   display: inline-block;
   margin-right: 16px;
-  animation-name:anime  ;
+  animation-name:anime-2  ;
   animation-duration: 15s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-@keyframes anime {
+@keyframes anime-2 {
   from{
     transform: translateX(0);
   }
@@ -373,5 +374,46 @@ body{
   font-style: italic;
   font-family: "silk serif";
   color: transparent;
+
+}
+#footer{
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  padding-left: 28vw;
+
+
+}
+#footer h1{
+  font-size:8vw;
+  width: 60vw;
+  background-color: blue;
+  margin-left: 28vw;
+}
+.underline{
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  margin: 2vw 0 ;
+}
+#footer-div{
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-between ;
+  padding-right: 15vw;
+  padding-top: 4vw;
+  margin-bottom: 2vw;
+}
+#footer-div h6{
+  font-size: 1vw;
+  margin-bottom: 1.5vw;
+}
+.box{
+  width: 20%;
+}
+#footer-div h5{
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin: 0.2vh , 0;
 
 }

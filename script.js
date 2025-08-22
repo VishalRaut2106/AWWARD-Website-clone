@@ -17,12 +17,13 @@ function loadingAnimation() {
         } else {
           h5timer.innerHTML = grow;
         }
-      }, 33);
+      }, 40);
     },
   });
   tl.to(".line h2", {
     animationName: "anime",
     opacity: 1,
+    delay:1
   });
   tl.to("#loader", {
     opacity: 0,
