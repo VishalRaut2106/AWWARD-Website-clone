@@ -44,3 +44,12 @@ tl.to("#loader", {
 
 }
 loadingPage()
+
+document.addEventListener("mousemove",function(dets){
+  gsap.to("#crsr",{
+    left:dets.x,
+    top:dets.y
+
+  })
+  
+})
