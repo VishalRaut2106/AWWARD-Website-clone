@@ -21,11 +21,11 @@ body {
 
 /* crsr */
 #crsr{
-    height: 2.4vw;
-    width: 2.4vw;
+    height: 2.6vw;
+    width: 2.6vw;
     border-radius: 50%;
     /* background-color: #fff; */
-    border: 1px solid rgb(139, 137, 137);
+    border: 1.4px solid rgb(187, 185, 185);
     position: fixed;
     z-index: 99999;
     mix-blend-mode: difference;
