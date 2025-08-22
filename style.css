@@ -14,9 +14,9 @@ html, body {
 }
 
 body {
-  font-family: 'Gilroy', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'plain light';
   background-color: #f9f9f9;
-  color: #333;
+  color: white;
 }
 
 
@@ -28,6 +28,45 @@ body {
     width: 100vw;
     background-color: #0B0B0B ;
     z-index: 9999;
+    padding: 25vh 10vw;
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    height: fit-content;
+    gap: 3vw;
+    
+}
+#line1-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    
+
+}
+#line1-part1 h5 {
+    width: 5vw;
+    text-align:right;
+}
+
+#line1-part1 h5 , #line1-part1 h6{
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+}
+
+.line h1{
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.line h2{
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 #main {
     position: relative;
