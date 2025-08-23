@@ -90,19 +90,19 @@ function loadingAnimation() {
   },"-=1.2");
 }
 
-function cursorAnimation() {
-  document.addEventListener("mousemove", function (dets) {
-    gsap.to("#crsr", {
-      left: dets.x,
-      top: dets.y,
-    });
-  });
+// function cursorAnimation() {
+//   document.addEventListener("mousemove", function (dets) {
+//     gsap.to("#crsr", {
+//       left: dets.x,
+//       top: dets.y,
+//     });
+//   });
 
-  // Only initialize Shery if it's available
-  if (typeof Shery !== 'undefined') {
-    Shery.makeMagnet("#nav-part2 h4");
-  }
-}
+//   // Only initialize Shery if it's available
+//   if (typeof Shery !== 'undefined') {
+//     Shery.makeMagnet("#nav-part2 h4");
+//   }
+// }
 
 // Initialize everything after the page loads
 window.addEventListener('DOMContentLoaded', function() {
@@ -112,3 +112,12 @@ window.addEventListener('DOMContentLoaded', function() {
   // Initialize Locomotive Scroll after a short delay to ensure everything is loaded
   setTimeout(locomitiveAnimation, 500);
 });
+
+function sheryAnimation(){
+  Shery.imageEffect(".image-div",{
+    style:5,
+    debugger:true,
+    gooey:true
+  })
+}
+sheryAnimation()
