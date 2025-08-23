@@ -169,6 +169,16 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   line-height: 7.2vw;
+  position: relative;
+}
+#hero1::before {
+  content: "01";
+  position: absolute;
+  font-size: 4vw;
+  font-weight: 100;
+  font-family: "silk serif";
+  left: 18%;
+  top: 30%;
 }
 
 .hero h2 {
@@ -250,7 +260,18 @@ body {
 #page4-content h1 {
   text-transform: uppercase;
   font-size: 7vw;
+  position: relative;
 }
+#page4-content h1::before {
+  content: "03";
+  position: absolute;
+  font-size: 4vw;
+  font-weight: 100;
+  font-family: "silk serif";
+  left: -12%;
+  top: 8%;
+}
+
 #page4-content .underline {
   height: 1px;
   width: 100%;
@@ -362,12 +383,21 @@ body {
   width: 100%;
   position: relative;
   padding-left: 26vw;
+  padding-right: 2vw;
 }
 #footer h1 {
   font-size: 8vw;
-  width: 60vw;
-
-  margin-left: 28vw;
+  text-transform: uppercase;
+  position: relative;
+}
+#footer h1::before {
+  content: "04";
+  position: absolute;
+  font-size: 4vw;
+  font-weight: 100;
+  font-family: "silk serif";
+  left: -12%;
+  top: 8%;
 }
 .underline {
   height: 2px;
@@ -386,6 +416,7 @@ body {
 #footer-div h6 {
   font-size: 1vw;
   margin-bottom: 1.5vw;
+  font-weight: 500;
 }
 .box {
   width: 20%;
@@ -394,4 +425,8 @@ body {
   font-size: 1.5vw;
   font-weight: 500;
   margin: 0.2vh, 0;
+}
+#footer > h5 {
+  font-weight: 500;
+  font-size: 1vw;
 }
