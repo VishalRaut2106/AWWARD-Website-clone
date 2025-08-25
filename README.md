@@ -35,9 +35,12 @@
 ### Libraries & Tools
 - **GSAP** – timelines, scroll triggers, easing
 - **Locomotive Scroll** – inertia scrolling & parallax
-- **Shery.js** – creative image effects
+- **Shery.js** – creative image effects  
 - **Three.js** – optional 3D/GL effects
 - **ControlKit.js** – tweakable UI for dev experiments
+
+>[!important]
+>[![Shery.js Tutorial](https://img.shields.io/badge/Shery.js%20Tutorial-YouTube-FF0000?logo=youtube&logoColor=white&labelColor=1E1E1E)](https://youtu.be/6d5yRW5suZE?si=3SZAGyzmf2ssTu7h)
 
 ---
 
